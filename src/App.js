@@ -6,8 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <p className="header-icon">📖</p>
-          <p className="header-title">Dictionary</p>
+          <p>📖</p>
         </header>
         <main>
           <Dictionary defaultKeyword="sunset" />
