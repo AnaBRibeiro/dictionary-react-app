@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
@@ -7,7 +6,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} alt="logo" />
+          <p className="header-icon">📖</p>
+          <p className="header-title">Dictionary</p>
         </header>
         <main>
           <Dictionary defaultKeyword="sunset" />
@@ -20,6 +20,7 @@ export default function App() {
                 href="https://github.com/AnaBRibeiro/dictionary-react-app"
                 target="_blank"
                 rel="noreferrer"
+                className="github-link"
               >
                 open-sourced on GitHub
               </a>

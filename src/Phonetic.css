@@ -1,0 +1,20 @@
+.Phonetic {
+  margin: 25px 0 20px;
+}
+
+.Phonetic .phonetic-listen {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  color: rgb(13 110 253 / 75%);
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 15px;
+  padding: 6px 14px;
+  text-decoration: none;
+}
+
+.Phonetic .phonetic-text {
+  color: #666;
+  font-size: 18px;
+  font-weight: 600;
+}

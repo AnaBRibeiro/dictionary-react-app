@@ -1,11 +1,29 @@
 .App {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 0 100px;
   text-align: center;
 }
 
 .App .App-footer {
-  margin: 30px 0;
+  margin: 50px 0 30px;
+}
+
+.App .github-link {
+  color: rgb(13 110 253/75%);
+  text-decoration: none;
 }
 
 .App .App-header {
-  margin: 30px 0;
+  margin: 20px 0 40px;
+}
+
+.App .header-icon {
+  font-size: 26px;
+  margin: 0;
+}
+
+.App .header-title {
+  font-size: 32px;
+  line-height: 32px;
 }

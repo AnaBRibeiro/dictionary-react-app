@@ -1,0 +1,15 @@
+.Meaning .definition {
+  margin-top: 20px;
+}
+
+.Meaning .example {
+  color: #666;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.Meaning .synonym {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
